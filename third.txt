@@ -1,1 +1,11 @@
-
+public class CarBrands {
+    public static void main(String[] args) {
+        
+        String[] carBrands = {"Mitsubishi", "Tesla", "Honda", "Nissan", "Kia", "Hyundai"};
+        
+        System.out.println("Daftar Merek Mobil:");
+        for (String brand : carBrands) {
+            System.out.println("- " + brand);
+        }
+    }
+}
